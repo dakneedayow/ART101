@@ -4,6 +4,18 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #ffcffb;
+    background-color: #83087d;
   }
+
+.divider4sections {
+    border: dotted  #ffcffb;
+}
+.javaPic {
+    margin: 10px;
+    max-width: 1000px;
+}
+.ricePic {
+    margin: 10px;
+    max-width: 500px;
+}
