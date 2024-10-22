@@ -1,6 +1,26 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/** index.js - purpose and description here
+ * Author: Dani Dayao
+ * Date: 21 October, 2024
+ * License: Public Domain
+ */
+
+// Defining Variables
+make = "Toyota";
+model = "Sienna";
+color = "Tan";
+year = 1999;
+ownIt = true;
+
+//calculate
+age = 2019 - year;
+
+//output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "<br>");
+document.writeln("Dani own's this car? " + ownIt + "<br>");
 
 // Constants
 
