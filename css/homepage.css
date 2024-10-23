@@ -3,4 +3,30 @@
 .dani-pic {
   margin: 100px;
   max-width: 500px;
+  border: 3px #ac94f4;
+}
+
+/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+#content {
+  margin: 10px;
+  padding: 5px;
+  border: solid 5px #ac94f4;
+  background-color: #C8A4D4;
+  font-size: 150%;
+  text-align: center;
+  font-family: Luminari;
+  text-overflow: clip;
+}
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 5px #ac94f4;
+  background-color: #C8A4D4;
+  font-size: 150%;
+}
+#links {
+  font-size: 150%;
+  text-align:left
 }

@@ -1,6 +1,26 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Dani Dayao
+// Date: 22 October, 2024
+
+//Define Variables
+myTransport = ["VANessa", "Ravioli", "Kona", "The Bus"];
+
+//object for main ride
+myMainRide = {
+  carName: "VANessa",
+  make: "Toyota",
+  model: "Sienna",
+  color: "Tan",
+  year: "1999",
+  age: function() {
+    return 2024 - this.year;
+  }
+}
+
+//Output
+document.writeln("Names of transportation I use ", myTransport, "</br>");
+document.writeln("My Main Ride: <pre>", 
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
 
 // Constants
 
