@@ -1,0 +1,13 @@
+#content{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 5px #ac94f4;
+  background-color:  #C8A4D4;
+}
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 5px #ac94f4;
+  background-color: #C8A4D4;
+  font-size: 150%;
+}
