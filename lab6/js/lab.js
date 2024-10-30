@@ -3,7 +3,7 @@
 // Date: 22 October, 2024
 
 //Define Variables
-myTransport = ["VANessa", "Ravioli", "Kona", "The Bus"];
+myTransport = ["VANessa ", "Ravioli ", "Kona ", "The Bus"];
 
 //object for main ride
 myMainRide = {
