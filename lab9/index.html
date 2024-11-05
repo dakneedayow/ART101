@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 9 - Libraries & jQuery</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab9.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab9.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 9 - Libraries & jQuery</h1>
+			<div id="challenge" class="minor-section">
+				<h2>Challenge</h2>
+				<p id="textElement">This lab is for learning how to use Libraries and jQuery. Click the button to see if Dani did this lab properly.</p>
+				<button id="myButton">Click me!</button>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>For majority of this lab, I struggled to get the buttons to work. I worried my things were not properly connected. Click the button to see if 
+						everything is connected.</p>
+					<button id="myButton1">Click me again!</button>
+			</div>
+
+			<div class="minor-section" id="results">
+					<h2>Results</h2>
+					<p>Let's have a party now that Dani's figured it out!<p>
+					<button id="myButton2">Click me again and again!</button>
+			</div>
+
+		</section>
+	</main>
+</body>
+</html>

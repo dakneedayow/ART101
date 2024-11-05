@@ -23,8 +23,3 @@ result = array.map(function(x) {
 });
 
 console.log("Squareroot of array: ", result);
-
-function printOutput(text) {
-  var outputElement = document.getElementById('output');
-  outputElement.textContent += text + "\n";
-}
