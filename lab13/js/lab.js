@@ -22,7 +22,6 @@ function fizzBuzzBoom() {
     return;
   }
 
-  // Generate FizzBuzzBoom results
   for (let i = 1; i <= maxNumber; i++) {
     let result = "";
 
